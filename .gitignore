@@ -1,0 +1,20 @@
+# Datos autorizados para publicación incluidos en dataset/dataset/
+# Evitar subir archivos comprimidos adicionales
+*.tgz
+*.zip
+
+# Entornos y temporales
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Artefactos generados localmente
+/resultados/*
+!/resultados/README.md
